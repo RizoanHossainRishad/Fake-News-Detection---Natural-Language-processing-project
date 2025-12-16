@@ -9,6 +9,7 @@ Finally, a **Convolutional Neural Network (CNN)** was trained using the Word2Vec
 
 This hybrid approach combines **traditional machine learning models** with **deep learning techniques** to evaluate and compare their effectiveness on Bengali fake news detection.
 ## Dataset Description
+Datast Link : https://www.kaggle.com/datasets/evilspirit05/bengali-fake-news-dataset
 
 This dataset consists of a well-curated collection of **Bengali news articles** created to support research in **fake news detection**. The data has been carefully gathered and processed to help researchers and practitioners develop, train, and evaluate machine learning and deep learning models capable of distinguishing between **real and fake news** in the Bengali language.
 
