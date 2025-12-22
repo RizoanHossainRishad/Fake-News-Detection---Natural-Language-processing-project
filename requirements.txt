@@ -1,0 +1,7 @@
+fastapi
+uvicorn
+onnxruntime
+gensim
+numpy
+nltk
+pydantic
