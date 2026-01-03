@@ -23,3 +23,43 @@ This dataset consists of a well-curated collection of **Bengali news articles** 
 
 - **Language**  
   All content is written in **Bengali**, making the dataset especially valuable for NLP research in low-resource languages.
+
+## FastAPI Deployment
+### Prerequisites
+Before deploying the FastAPI backend, ensure the following Python packages are installed:
+
+    pip install fastapi uvicorn onnxruntime gensim numpy nltk pydantic
+  -   **fastapi** – For building the API.    
+-   **uvicorn** – ASGI server to run the FastAPI app.          
+-   **onnxruntime** – To run ONNX models.    
+-   **numpy** – Array and matrix operations.    
+-   **pydantic** – Image and video processing.    
+-   **nltk** – Progress bars for loops.    
+-   **gensim** – For preprocessing or ML utilities.    
+
+### Steps
+
+ 1. Clone the repository or Download the repository
+    `git clone https://github.com/RizoanHossainRishad/Fake-News-Detection---Natural-Language-processing-project.git`
+ 2. Open the terminal in the project root folder
+ 3. Run the FastAPI server
+    `uvicorn app.main:app --reload`
+    -   The `--reload` flag automatically reloads on code changes (useful in development).    
+    -   Access your API at: `http://127.0.0.1:8000`
+  5. **Test API endpoints**
+-   Use tools like **Postman** or **curl** to test endpoints.
+-   Example: `POST /predict` with an image file.
+-  Or check my SWAGGER UI my simply writing  `http://127.0.0.1:8000/docs`
+- On Swagger UI using browser, You'll see an interactive API — click on /predict → Try it out → enter the news in the Request Body->  you will get prediction.
+
+
+## Additional Tips ( Not mandatory ) 
+It is good practice to use a virtual environment for isolating dependencies
+
+    python -m venv venv
+    source venv/bin/activate   # Linux / Mac
+    venv\Scripts\activate      # Windows
+    
+## Contact Information
+ - Rizoan Hossain Rishad
+	 - Email: rizoanrishad@gmail.com
