@@ -1,4 +1,4 @@
-## Project Overview
+## Bangla Fake News Detection using Deep learning
 In this project, the dataset was preprocessed using **traditional NLP techniques tailored for the Bengali language**, including puncuation,stopword,extraspaces & special character cleaning, and tokenization. Language-specific preprocessing steps were applied to ensure better representation of Bengali text.
 
 For feature extraction, different approaches were used based on the model requirements:
